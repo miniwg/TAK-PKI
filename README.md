@@ -27,6 +27,6 @@ Wherever the installation guide refers to makeRootCA.sh or MakeCert.sh use the *
 ie: In the /opt/tak/certs directory:
 ```
 ./makeRootCAmwg.sh
-.makeCertmwg.sh server takserver
+./makeCertmwg.sh server takserver
 ```
 
