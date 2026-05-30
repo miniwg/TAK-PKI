@@ -2,6 +2,7 @@
 # EDIT cert-metadata.sh before running this script!
 #  Optionally, you may also edit config.cfg, although unless you know what
 #  you are doing, you probably shouldn't.
+# Modified by Mini workgroups ltd May 2026
 
 . cert-metadata.sh
 
