@@ -9,7 +9,7 @@ This is particularly an issue with recent versions of Ubuntu Server which now in
 These are temporary substitutes until the original TAK server scripts are updated
 
 ## Installation
-Copy the files makeRootCAmwg.sh and MakeCertmwg.sh into the /opt/tak/certs folder
+Copy the files *makeRootCAmwg.sh* and *makeCertmwg.sh* into the **/opt/tak/certs** folder
 
 Set the correct ownership and permissions:
 ```
@@ -22,7 +22,7 @@ sudo chmod 500 makeCertmwg.sh
 They are not replacements for the existing scripts, but additions.
 
 ## Usage
-Wherever the installation guide refers to makeRootCA.sh or MakeCert.sh use the *mwg.sh version above instead.
+Wherever the installation guide refers to *makeRootCA.sh* or *makeCert.sh* use the *...mwg.sh* version above instead.
 
 ie: In the /opt/tak/certs directory:
 ```
