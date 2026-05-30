@@ -4,6 +4,8 @@ Updated Public Key Infrastructure scripts for TAK server to address OpenSSL 3 in
 ## Issue
 OpenSSL v3 blocks the use of pkcs12 key which use RC2-40-CBC encryption.  These versions of the TAK server PKI scripts remove test which alway results in the creation of pkcs12 keys with RC2-40-CBC encryption.
 
+This is particularly an issue with recent versions of Ubuntu Server which now includes OpenSSL v3 
+
 These are temporary substitutes until the original TAK server scripts are updated
 
 ## Installation
