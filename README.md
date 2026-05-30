@@ -10,10 +10,12 @@ These are temporary substitutes until the original TAK server scripts are update
 Copy the files makeRootCAmwg.sh and MakeCertmwg.sh into the /opt/tak/certs folder
 
 Set the correct ownership and permissions:
-`sudo chown tak: makeRootCAmwg.sh`
-`sudo chown tak: makeCertmwg.sh`
-`sudo chmod 500 makeRootCAmwg.sh`
-`sudo chmod 500 makeCertmwg.sh`
+```
+sudo chown tak: makeRootCAmwg.sh
+sudo chown tak: makeCertmwg.sh
+sudo chmod 500 makeRootCAmwg.sh
+sudo chmod 500 makeCertmwg.sh
+```
 
 ## Usage
 Wherever the installation guide refers to makeRootCA.sh or MakeCert.sh use the *mwg.sh version above instead.
