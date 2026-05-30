@@ -19,5 +19,7 @@ sudo chmod 500 makeRootCAmwg.sh
 sudo chmod 500 makeCertmwg.sh
 ```
 
+They are not replacements for the existing scripts, but additions.
+
 ## Usage
 Wherever the installation guide refers to makeRootCA.sh or MakeCert.sh use the *mwg.sh version above instead.
