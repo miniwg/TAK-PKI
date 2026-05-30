@@ -23,3 +23,10 @@ They are not replacements for the existing scripts, but additions.
 
 ## Usage
 Wherever the installation guide refers to makeRootCA.sh or MakeCert.sh use the *mwg.sh version above instead.
+ie:
+In the /opt/tak/certs directory:
+```
+./makeRootCAmwg.sh
+.makeCertmwg.sh server takserver
+```
+
