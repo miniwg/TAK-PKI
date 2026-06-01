@@ -2,7 +2,7 @@
 Updated Public Key Infrastructure scripts for TAK server to address OpenSSL 3 incompatibilities 
 
 ## Issue
-OpenSSL v3 blocks the use of pkcs12 key which use RC2-40-CBC encryption.  These versions of the TAK server PKI scripts remove test which alway results in the creation of pkcs12 keys with RC2-40-CBC encryption.
+OpenSSL v3 blocks the use of pkcs12 keys which use RC2-40-CBC encryption.  These versions of the TAK server PKI scripts remove tests which always results in the creation of pkcs12 keys with RC2-40-CBC encryption
 
 This is particularly an issue with recent versions of Ubuntu Server which now includes OpenSSL v3 
 
@@ -24,7 +24,7 @@ They are not replacements for the existing scripts, but additions.
 ## Usage
 Wherever the installation guide refers to *makeRootCA.sh* or *makeCert.sh* use the *...mwg.sh* version above instead.
 
-ie: In the /opt/tak/certs directory:
+ie: In the **/opt/tak/certs** directory:
 ```
 ./makeRootCAmwg.sh
 ./makeCertmwg.sh server takserver
